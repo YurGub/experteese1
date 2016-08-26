@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Experteese_development" uuid="4a283e0a-72c5-4aa0-be9a-21506d4e3fba">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>experteese_admin</user-name>
+      <introspection-scope>experteese_development:public,pg_catalog,experteese_admin</introspection-scope>
+      <resolve-scope>experteese_development:public,experteese_admin</resolve-scope>
+    </data-source>
+    <data-source name="Experteese_test" uuid="a0ee50c1-76a8-4f70-b31b-021f018ba20e">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>experteese_admin</user-name>
+      <introspection-scope>experteese_test:public,pg_catalog,experteese_admin</introspection-scope>
+      <resolve-scope>experteese_test:public,experteese_admin</resolve-scope>
+    </data-source>
+    <data-source name="Experteese_production" uuid="7dea0f66-6786-4525-8326-ff4cf6c9fef2">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>experteese_admin</user-name>
+      <introspection-scope>experteese_production:public,pg_catalog,experteese_admin</introspection-scope>
+      <resolve-scope>experteese_production:public,experteese_admin</resolve-scope>
+    </data-source>
+  </component>
+</project>

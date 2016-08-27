@@ -20,9 +20,7 @@
 /config/secrets.yml
 
 .idea/*
-
-
-#.idea/workspace.xml
+workspace.xml
 
 
 # app/controllers/api/

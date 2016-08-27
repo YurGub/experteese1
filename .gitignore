@@ -18,3 +18,6 @@
 
 
 /config/secrets.yml
+
+.idea/*
+app/controllers/api/

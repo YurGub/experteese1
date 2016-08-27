@@ -19,7 +19,7 @@
 
 /config/secrets.yml
 
-.idea/*
+.idea/
 
 
 # app/controllers/api/

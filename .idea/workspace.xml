@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2042b81-f664-4225-af9b-27e6cdc376a2" name="Default" comment="add .idea to gitignore">
+    <list default="true" id="d2042b81-f664-4225-af9b-27e6cdc376a2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0a8074dc-af2a-4323-ac33-77c63358b9af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0c6c9806-dfb1-4a43-afcd-76f1237d5a0b.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/4a283e0a-72c5-4aa0-be9a-21506d4e3fba.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/7dea0f66-6786-4525-8326-ff4cf6c9fef2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/a0ee50c1-76a8-4f70-b31b-021f018ba20e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/experteese.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0c6c9806-dfb1-4a43-afcd-76f1237d5a0b.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0c6c9806-dfb1-4a43-afcd-76f1237d5a0b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="experteese.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,8 +117,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -624,7 +640,7 @@
       <workItem from="1472295830201" duration="3504000" />
       <workItem from="1472304098932" duration="2181000" />
       <workItem from="1472307141753" duration="2998000" />
-      <workItem from="1472310566561" duration="103000" />
+      <workItem from="1472310566561" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="more start settings">
       <created>1472236548555</created>
@@ -703,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472309391099</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add .idea/ to gitignore">
+      <created>1472310686292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1472310686292</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20203000" />
+    <option name="totallyTimeSpent" value="20632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="117" width="1536" height="921" extended-state="0" />
@@ -753,7 +776,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/BlookHo/experteese&#10;&#10;# Conflicts:&#10;#&#9;.idea/dataSources/0a8074dc-af2a-4323-ac33-77c63358b9af.xml&#10;#&#9;.idea/dataSources/0c6c9806-dfb1-4a43-afcd-76f1237d5a0b.xml&#10;#&#9;.idea/dataSources/622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35.xml&#10;#&#9;.idea/workspace.xml&#10;+ many gems really installed - checked" />
     <MESSAGE value="many gems really installed - checked" />
     <MESSAGE value="add .idea to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea to gitignore" />
+    <MESSAGE value="add .idea/ to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea/ to gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1083,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
         </state>
       </provider>

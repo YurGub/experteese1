@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2042b81-f664-4225-af9b-27e6cdc376a2" name="Default" comment="">
+    <list default="true" id="d2042b81-f664-4225-af9b-27e6cdc376a2" name="Default" comment="add .idea/*  to gitignore after git rm -r --cached .idea -5d time">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0a8074dc-af2a-4323-ac33-77c63358b9af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0c6c9806-dfb1-4a43-afcd-76f1237d5a0b.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/4a283e0a-72c5-4aa0-be9a-21506d4e3fba.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/7dea0f66-6786-4525-8326-ff4cf6c9fef2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/a0ee50c1-76a8-4f70-b31b-021f018ba20e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/experteese.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__experteese.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="experteese.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +108,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -167,8 +184,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="86" />
+    <option name="x" value="64" />
+    <option name="y" value="99" />
     <option name="width" value="1536" />
     <option name="height" value="921" />
   </component>
@@ -197,9 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -356,6 +370,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,7 +621,8 @@
       <workItem from="1472304098932" duration="2181000" />
       <workItem from="1472307141753" duration="2998000" />
       <workItem from="1472310566561" duration="994000" />
-      <workItem from="1472311575944" duration="12000" />
+      <workItem from="1472311575944" duration="1369000" />
+      <workItem from="1472319546837" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="more start settings">
       <created>1472236548555</created>
@@ -704,17 +722,38 @@
       <option name="project" value="LOCAL" />
       <updated>1472311229015</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add .idea/*  to gitignore after git rm -r --cached .idea -3d time">
+      <created>1472311605580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1472311605580</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add .idea/*  to gitignore after git rm -r --cached .idea -4d time">
+      <created>1472312730880</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1472312730880</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add .idea/*  to gitignore after git rm -r --cached .idea -6d time">
+      <created>1472312935503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1472312935503</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21106000" />
+    <option name="totallyTimeSpent" value="22576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="86" width="1536" height="921" extended-state="0" />
+    <frame x="64" y="99" width="1536" height="921" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21610738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21879195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,7 +796,10 @@
     <MESSAGE value="add .idea/ to gitignore" />
     <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea" />
     <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea -2nd time" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea/*  to gitignore after git rm -r --cached .idea -2nd time" />
+    <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea -3d time" />
+    <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea -4d time" />
+    <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea -6d time" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea/*  to gitignore after git rm -r --cached .idea -6d time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1087,8 +1129,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -38,6 +38,14 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+
+  # gem 'rspec', '~> 3.5.0.beta1'
+  gem 'rspec-rails', '~> 3.5.0.beta1'
+  gem "rails-controller-testing", :git => "https://github.com/rails/rails-controller-testing"
+  gem 'rspec-core', '~> 3.5.0.beta1'
+  gem 'rspec-support'
+  
+
 end
 
 group :development do
@@ -47,6 +55,22 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+
+  # Automagically launches tests for changed files
+  gem 'guard'
+  gem 'guard-rspec', '~> 4.6', require: false
+
+  # For active record imitation in tests
+  gem "factory_girl_rails"
+
+  # Faker, a port of Data::Faker from Perl,
+  # is used to easily generate fake data: names, addresses, phone numbers, etc.
+  gem 'faker', '~> 1.5'
+  
+  gem 'ffaker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

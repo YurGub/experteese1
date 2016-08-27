@@ -20,6 +20,7 @@
 /config/secrets.yml
 
 .idea/*
+
 #.idea/workspace.xml
 
 

@@ -20,4 +20,4 @@
 /config/secrets.yml
 
 .idea/*
-app/controllers/api/
+# app/controllers/api/

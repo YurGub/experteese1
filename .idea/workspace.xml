@@ -99,8 +99,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -633,7 +633,7 @@
       <workItem from="1472232412701" duration="5655000" />
       <workItem from="1472286944280" duration="2025000" />
       <workItem from="1472295830201" duration="3504000" />
-      <workItem from="1472304098932" duration="1822000" />
+      <workItem from="1472304098932" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="more start settings">
       <created>1472236548555</created>
@@ -677,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472305680727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add to gitignore">
+      <created>1472305937823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1472305937823</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16743000" />
+    <option name="totallyTimeSpent" value="16991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="116" y="95" width="1536" height="921" extended-state="0" />
@@ -722,7 +729,8 @@
     <MESSAGE value="models migrations + routes - api v1 scope" />
     <MESSAGE value="rspec config" />
     <MESSAGE value="rspec  files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rspec  files added" />
+    <MESSAGE value="add to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1056,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

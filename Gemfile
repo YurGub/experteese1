@@ -45,7 +45,6 @@ group :development, :test do
   gem 'rspec-core', '~> 3.5.0.beta1'
   gem 'rspec-support'
   
-
 end
 
 group :development do
@@ -70,7 +69,6 @@ group :test do
   # is used to easily generate fake data: names, addresses, phone numbers, etc.
   gem 'faker', '~> 1.5'
   
-  gem 'ffaker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

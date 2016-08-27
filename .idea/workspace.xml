@@ -21,7 +21,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__experteese.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="experteese.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +116,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="57">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -640,7 +639,7 @@
       <workItem from="1472295830201" duration="3504000" />
       <workItem from="1472304098932" duration="2181000" />
       <workItem from="1472307141753" duration="2998000" />
-      <workItem from="1472310566561" duration="532000" />
+      <workItem from="1472310566561" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="more start settings">
       <created>1472236548555</created>
@@ -726,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472310686292</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add .idea/*  to gitignore after git rm -r --cached .idea">
+      <created>1472311129766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1472311129767</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20632000" />
+    <option name="totallyTimeSpent" value="20748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="117" width="1536" height="921" extended-state="0" />
@@ -777,7 +783,8 @@
     <MESSAGE value="many gems really installed - checked" />
     <MESSAGE value="add .idea to gitignore" />
     <MESSAGE value="add .idea/ to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea/ to gitignore" />
+    <MESSAGE value="add .idea/*  to gitignore after git rm -r --cached .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea/*  to gitignore after git rm -r --cached .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1107,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="57">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>

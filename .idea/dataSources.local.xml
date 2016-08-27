@@ -8,8 +8,8 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>experteese_admin</user-name>
-      <introspection-scope>experteese_development:public,pg_catalog,experteese_admin</introspection-scope>
-      <resolve-scope>experteese_development:public,experteese_admin</resolve-scope>
+      <introspection-scope>experteese_development:experteese_admin,pg_catalog,public</introspection-scope>
+      <resolve-scope>experteese_development:experteese_admin,public</resolve-scope>
     </data-source>
     <data-source name="Experteese_test" uuid="a0ee50c1-76a8-4f70-b31b-021f018ba20e">
       <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -18,8 +18,8 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>experteese_admin</user-name>
-      <introspection-scope>experteese_test:public,pg_catalog,experteese_admin</introspection-scope>
-      <resolve-scope>experteese_test:public,experteese_admin</resolve-scope>
+      <introspection-scope>experteese_test:experteese_admin,pg_catalog,public</introspection-scope>
+      <resolve-scope>experteese_test:experteese_admin,public</resolve-scope>
     </data-source>
     <data-source name="Experteese_production" uuid="7dea0f66-6786-4525-8326-ff4cf6c9fef2">
       <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -28,8 +28,34 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>experteese_admin</user-name>
-      <introspection-scope>experteese_production:public,pg_catalog,experteese_admin</introspection-scope>
-      <resolve-scope>experteese_production:public,experteese_admin</resolve-scope>
+      <introspection-scope>experteese_production:experteese_admin,pg_catalog,public</introspection-scope>
+      <resolve-scope>experteese_production:experteese_admin,public</resolve-scope>
+    </data-source>
+    <data-source name="Rails experteese: development" uuid="0a8074dc-af2a-4323-ac33-77c63358b9af">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>experteese_admin</user-name>
+      <user-password>df96df8fdf97df8adff8dfcbdfc3dfc6dfd9df84dfcbdfdadfdadfc6dfc3dfc9dfcbdfdedfc3dfc5dfc4df84dfd9dfcfdfc9dfd8dfcfdfdedfd9dff1df90dfcedfcbdfdedfcbdfc8dfcbdfd9dfcfdff7dff1df90dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedff7df8adf8fdf94</user-password>
+      <introspection-scope>experteese_development:experteese_admin,pg_catalog,public</introspection-scope>
+      <resolve-scope>experteese_development:experteese_admin,public</resolve-scope>
+    </data-source>
+    <data-source name="Rails experteese: test" uuid="622ca9f3-d4b7-44ce-9ec9-4b9cc8319e35">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>experteese_admin</user-name>
+      <user-password>df96df8fdf97df8adff8dfcbdfc3dfc6dfd9df84dfcbdfdadfdadfc6dfc3dfc9dfcbdfdedfc3dfc5dfc4df84dfd9dfcfdfc9dfd8dfcfdfdedfd9dff1df90dfcedfcbdfdedfcbdfc8dfcbdfd9dfcfdff7dff1df90dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedff7df8adf8fdf94</user-password>
+    </data-source>
+    <data-source name="Rails experteese: production" uuid="0c6c9806-dfb1-4a43-afcd-76f1237d5a0b">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>experteese_admin</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfefdff2dffadfefdff8dffedfefdfefdff9dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>
   </component>
 </project>

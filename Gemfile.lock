@@ -248,7 +248,6 @@ DEPENDENCIES
   font-awesome-sass
   guard
   guard-rspec (~> 4.6)
-  haml
   haml-rails
   jbuilder (~> 2.5)
   jquery-rails

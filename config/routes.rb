@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
   require 'api_constraints'
   
-  
-  resources :values
-  resources :images
   root 'main#main'
    
   #get 'main/main'
@@ -17,7 +14,9 @@ Rails.application.routes.draw do
           constraints: ApiConstraints.new(version: 1, default: true) do
       # http://api.experteese.dev/v1/products/1
       # We are going to list our resources here
-      
+      resources :values
+      resources :images
+
     end
     
   end

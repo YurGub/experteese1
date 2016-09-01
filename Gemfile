@@ -14,7 +14,7 @@ gem 'puma', '~> 3.0'
 # Installing ruby_parser 3.8.2
 # html2haml 2.0.0
 # #
-gem 'haml'
+# gem 'haml'    # 4.0.7 Installed
 gem 'haml-rails'  # 0.9.0 Installed
 
 # Use SCSS for stylesheets

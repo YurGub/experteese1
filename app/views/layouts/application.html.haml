@@ -20,4 +20,11 @@
     %script{:src => "https://code.jquery.com/jquery-migrate-1.2.1.min.js"}
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    = yield
+    #overlay{style:'display:none;'}
+    = render 'shared/ui/header'
+    = render 'shared/ui/flash'
+    .container
+      = yield
+    = render 'shared/ui/footer'
+
+    -#= yield :debugger

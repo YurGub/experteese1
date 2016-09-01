@@ -1,0 +1,27 @@
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .container
+    -#- if current_user
+    -#  %a{href: '/main_page', class: :logo}
+    -#    -#= fa_icon "leaf"
+    -#    Experteese
+    -#- else
+    -#  %a{href: '/', class: :logo}
+    -#    = fa_icon "leaf"
+    -#    Experteese
+    -#%ul
+    -#  - if current_user
+    -#    %li= link_to current_user.email, main_page_path
+    -#    %li= link_to "Моя страница", main_page_path
+    -#    %li= link_to "Выход", :logout
+    -#  -else
+    -#    %li= link_to "Войти на сайт", :login
+
+    %a{href: '/main_page', class: :logo}
+      = fa_icon "leaf"
+      Experteese
+    = link_to "sample app", '#', id: "logo"
+    %nav
+      %ul.nav.navbar-nav.navbar-right
+        %li= link_to "Home",   '#'
+        %li= link_to "Help",   '#'
+        %li= link_to "Log in", '#'

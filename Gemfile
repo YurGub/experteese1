@@ -17,6 +17,8 @@ gem 'puma', '~> 3.0'
 # gem 'haml'    # 4.0.7 Installed
 gem 'haml-rails'  # 0.9.0 Installed
 
+gem 'bootstrap-sass', '3.3.6' # Installed 3.3.6
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

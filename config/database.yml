@@ -91,5 +91,5 @@ production:
   <<: *base
 #  database: <%= Rails.application.secrets[:database][:name] %>
   database: experteese_production
-#  username: experteese_admin
+  username: experteese_admin
 #  password: <%= ENV['EXPERTEESE_DATABASE_PASSWORD'] %>

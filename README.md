@@ -28,4 +28,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
+$ heroku createCreating app... done, ⬢ damp-sierra-61323
+https://damp-sierra-61323.herokuapp.com/ | https://git.heroku.com/damp-sierra-61323.git
+Heroku deployment, step one
+$ git push heroku master
+$ heroku open
+$ heroku run rake db:migrate
+$ heroku logs
 * ...

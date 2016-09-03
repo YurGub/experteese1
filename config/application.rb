@@ -28,9 +28,9 @@ module Experteese
       g.helper = false
     end
 
-   #  config.autoload_paths += %W(\#{config.root}/lib)
-   #  config.autoload_paths += Dir[Rails.root.join('lib')]
-   # # config.autoload_paths += Dir[Rails.root.join('lib', 'added_classes', 'search_work')]
+    config.autoload_paths += %W(\#{config.root}/lib)
+    config.autoload_paths += Dir[Rails.root.join('lib')]
+   # config.autoload_paths += Dir[Rails.root.join('lib', 'added_classes', 'search_work')]
 
 
 

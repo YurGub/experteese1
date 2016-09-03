@@ -90,7 +90,7 @@ test:
 production:
   <<: *base
 #  database: <%= Rails.application.secrets[:database][:name] %>
-#  database: experteese_production
-#  username: experteese_admin
+  database: experteese_production
+  username: experteese_admin
 #  password: <%= ENV['EXPERTEESE_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
+#  url: <%= ENV['DATABASE_URL'] %>

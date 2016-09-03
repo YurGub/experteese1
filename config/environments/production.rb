@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # see .yml in config
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
+    
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -17,13 +20,17 @@ Rails.application.configure do
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  # allow serv static files in production in Heroku
+  config.public_file_server.enabled = true
+  # config.serve_static_files = true # deprecated in Rails 5.1
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  # Set to true to use added folders in  assets (Heroku - working)
+  config.assets.compile = true
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 

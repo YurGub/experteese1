@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
+
+  resources :values
+  resources :images
+  resources :users
+  resources :microposts
+  
   require 'api_constraints'
   
   root 'main#main'
    
-  #get 'main/main'
+  
+  
+
   
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
@@ -14,11 +22,7 @@ Rails.application.routes.draw do
           constraints: ApiConstraints.new(version: 1, default: true) do
       # http://api.experteese.dev/v1/products/1
       # We are going to list our resources here
-      resources :values
-      resources :images
-
     end
-    
   end
   
   

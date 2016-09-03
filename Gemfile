@@ -60,7 +60,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console' # 3.3.1
   
-  gem 'listen', '~> 3.0.5'
+  gem 'listen', '~> 3.0.5' # 3.0.8 Installed
   
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -70,7 +70,6 @@ group :development do
   # Automagically launches tests for changed files
   gem 'guard'
   gem 'guard-rspec', '~> 4.6', require: false
-  
 end
 
 group :test do

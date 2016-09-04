@@ -22,7 +22,7 @@ base: &base
   username: experteese_admin
 #  port: 5432
   timeout: 5000
-  password: dmkv1219
+#  password: dmkv1219
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 10 #<%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
